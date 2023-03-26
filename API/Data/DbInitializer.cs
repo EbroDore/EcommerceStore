@@ -219,6 +219,8 @@ namespace API.Data
             {
                 context.Products.Add(p);
             }
+
+            context.SaveChanges();
         }
     }
 }

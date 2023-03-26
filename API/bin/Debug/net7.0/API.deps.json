@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "Swashbuckle.AspNetCore": "6.4.0",
+          "Microsoft.Data.Sqlite": "7.0.4",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.4",
@@ -36,6 +37,12 @@
             "assemblyVersion": "7.0.4.0",
             "fileVersion": "7.0.423.11903"
           }
+        }
+      },
+      "Microsoft.Data.Sqlite/7.0.4": {
+        "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "7.0.4",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.4"
         }
       },
       "Microsoft.Data.Sqlite.Core/7.0.4": {
@@ -423,6 +430,13 @@
       "sha512": "sha512-1zlq5/xtbC9AyNHK2EBaL2RuCepoWHAXSxN68io/nndYLOTz/tgGmwtJvDZkUzFYooAXaNlavzcRlgS4muqgOA==",
       "path": "microsoft.aspnetcore.openapi/7.0.4",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512"
+    },
+    "Microsoft.Data.Sqlite/7.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cKMKuHYNprk0WWWezkDr7MPduyuqMz4CceSxBYYqTUNPJG6b+NTJNKobDZZsua7EdXXMaodLXHBwrbwoKH1PkQ==",
+      "path": "microsoft.data.sqlite/7.0.4",
+      "hashPath": "microsoft.data.sqlite.7.0.4.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/7.0.4": {
       "type": "package",
